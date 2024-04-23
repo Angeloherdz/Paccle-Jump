@@ -48,7 +48,7 @@ class Bullet {
   }
   
   void checkRemove(){
-   if (y < 0 || key == 'r'){
+   if (y < 0 || key == ' ' && state == 2){
    shouldRemove = true;
    }
   }
